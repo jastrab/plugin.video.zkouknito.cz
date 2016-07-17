@@ -64,13 +64,14 @@ class ZkouknitoContentProvider(ContentProvider):
 		if q > 0:
 			url = url[:q]
 		data = util.substr(page,'<div id=\"videolist','<div class=\"paging-adfox\">')
-		pattern='<div class=\"img-wrapper\"><a href=\"(?P<url>[^\"]+)\" title=\"(?P<name>[^\"]+)(.+?)<img(.+?)src=\"(?P<img>[^\"]+)(.+?)<p class=\"dsc\">(?P<plot>[^<]+)'
+		#pattern='<div class=\"img-wrapper\"><a href=\"(?P<url>[^\"]+)\" title=\"(?P<name>[^\"]+)(.+?)<img(.+?)src=\"(?P<img>[^\"]+)(.+?)<p class=\"dsc\">(?P<plot>[^<]+)'
+		pattern='<div class=\"img-wrapper\"><a href=\"(?P<url>[^\"]+)\" title=\"(?P<name>[^\"]+)(.+?)<img(.+?)src=\"(?P<img>[^\"]+)(.+?)'
 		for m in re.finditer(pattern, data, re.IGNORECASE | re.DOTALL):
 			item = self.video_item()
 			item['title'] = m.group('name')
 			item['url'] = m.group('url')
 			item['img'] = m.group('img')
-			item['plot'] = m.group('plot')
+			#item['plot'] = m.group('plot')
 			self._filter(result,item)
 
 		data = util.substr(page,'<div class=\"jumpto\"','</div>')
