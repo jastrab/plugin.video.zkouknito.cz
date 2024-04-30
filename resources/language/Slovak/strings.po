@@ -1,0 +1,95 @@
+# Kodi Media Center language file
+# Addon Name: zkouknito.cz
+# Addon id: plugin.video.zkouknito.cz
+msgid ""
+msgstr ""
+
+"Language: cs_CZ\n"
+
+msgctxt "#30000"
+msgid "Size of search history"
+msgstr "Počet zapamätovaných hľadaní"
+
+msgctxt "#30001"
+msgid "Video is not available, check[CR]whether it works using web page."
+msgstr "Video nie je dostupné, skontrolujte, [CR]či funguje prehrávanie na webe."
+
+msgctxt "#30002"
+msgid "Playing this video[CR]is not yet supported."
+msgstr "Prehrávané video nie je podporované"
+
+msgctxt "#30003"
+msgid "[B]Latest episodes[/B]"
+msgstr "[B]Najnovšie epizódy[/B]"
+
+msgctxt "#30004"
+msgid "Choose video source"
+msgstr "Zvoľte zdroj videa"
+
+msgctxt "#30030"
+msgid "Downloads"
+msgstr "Priečinok pre sťahovanie"
+
+msgctxt "#30031"
+msgid "Please setup downloads folder"
+msgstr "Nastavte prosím priečinok pre sťahovanie"
+
+msgctxt "#30032"
+msgid "Notify when downloading"
+msgstr "Zobrazovať stav sťahovania"
+
+msgctxt "#30033"
+msgid " - display notification every"
+msgstr " - zobrazit stav každých"
+
+msgctxt "#30034"
+msgid "10%"
+msgstr ""
+
+msgctxt "#30035"
+msgid "5%"
+msgstr ""
+
+msgctxt "#30036"
+msgid "1%"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Downloads"
+msgstr "Stiahnuté súbory"
+
+msgctxt "#30050"
+msgid "Video quality"
+msgstr "Kvalita videa"
+
+msgctxt "#30051"
+msgid "Always ask"
+msgstr "Spýtať sa"
+
+msgctxt "#30052"
+msgid "Best"
+msgstr "Nejlepšia"
+
+msgctxt "#30053"
+msgid "Worst"
+msgstr "Nejhoršia"
+
+msgctxt "#30054"
+msgid "720p"
+msgstr ""
+
+msgctxt "#30055"
+msgid "480p"
+msgstr ""
+
+msgctxt "#30056"
+msgid "360p"
+msgstr ""
+
+msgctxt "#30103"
+msgid "General"
+msgstr "Hlavné"
+
+msgctxt "#31000"
+msgid "Usage of plugin is tracked whenever you play or download video."
+msgstr "Data o použití sú poslané len v okamžiku, kedy spustíte prehrávanie alebo sťahovanie videa doplnkom."

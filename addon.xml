@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addon id="plugin.video.zkouknito.cz" name="zkouknito.cz" provider-name="Libor Zoubek" version="1.0.6">
+<addon id="plugin.video.zkouknito.cz" name="zkouknito.cz" provider-name="Libor Zoubek, Jastrab" version="1.1.0">
   <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.stream.resolver" version="1.6.13" />
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.stream.resolver" version="1.7.3" />
   </requires>
   <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
     <provides>video</provides>
@@ -10,9 +10,13 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">zkouknito.cz</summary>
     <summary lang="cs">zkouknito.cz</summary>
+	<summary lang="sk">zkouknito.cz</summary>
     <description lang="en">Watch online content from zkouknito.cz</description>
     <description lang="cs">Sledujte online obsah ze servru zkouknito.cz</description>
     <description lang="sk">Sledujte online obsah zo servera zkouknito.cz</description>
     <platform>all</platform>
+	<assets>
+	  <icon>icon.png</icon> 
+    </assets>
   </extension>
 </addon>
